@@ -3,6 +3,9 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+<!-- THE LINK FOR THE FRONTEND -->
+
+https://github.com/ndungu-jeff/phase-IV-FRONTEND
 
 <!-- setup() -->
 I used postgresql instead of using seeds inorder to test my routes in postman.
