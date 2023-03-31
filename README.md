@@ -3,9 +3,6 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-<!-- THE LINK FOR THE FRONTEND -->
-
-https://github.com/ndungu-jeff/phase-IV-FRONTEND
 
 <!-- setup() -->
 I used postgresql instead of using seeds inorder to test my routes in postman.
@@ -35,6 +32,46 @@ To run the server you need to type "rails s" in the terminal
 To make a contribution to the code used or any suggestions you can click on the contact link and email me your suggestions.
 • Email: ndungujeff.ke@gmail.com
 
+
+<!-- ENDPOINTS -->
+POST
+
+/owner/create/
+
+Create a new owner
+{
+    "full_name": "string",
+    "username": "string",
+    "password": "string",
+    "phone_number": "string"
+}
+
+ /client/create/
+ Create a new client
+{
+    "full_name": "string",
+    "username": "string",
+    "password": "string",
+    "phone_number": "string",
+    "email": "string"
+}
+ <!-- An owner posting a new house -->
+{
+    "name": "string",
+    "location": "string",
+    "description": "string ",
+    "price": integer,
+    "owner_id": integer
+}
+Patch/house/id
+ <!-- Patching a house -->
+{
+    "image_url": "string",
+    "name": "string",
+    "location": "string",
+    "description": "string ",
+    "price": integer,
+}
 <!-- License -->
 
 Copyright (c) 2023 Jeff Ndung'u Wanjiku.
