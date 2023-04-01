@@ -2,7 +2,8 @@
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
-
+<!-- Deployment -->
+https://jeff-bnb.onrender.com
 
 <!-- setup() -->
 I used postgresql instead of using seeds inorder to test my routes in postman.
